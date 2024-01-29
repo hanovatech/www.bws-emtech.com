@@ -1,0 +1,56 @@
+{
+  "name": "BWS E-Mobility Technologies",
+  "short_name": "BWS E-Mobility Technologies",
+  "lang": "en-us",
+  "display": "fullscreen",
+  "orientation" : "portrait",
+  "start_url": "https://bws.lemon.akmnn.de/?utm_source=web_app_manifest",
+  "background_color": "#fff",
+  "theme_color": "#60a5fa",
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  "icons": [
+    {
+      "src": "/images/favicon_hu34fadd5a97e9dcb70e02961a9f4b45c0_1672_48x48_resize_lanczos_3.png",
+      "sizes": "48x48",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/favicon_hu34fadd5a97e9dcb70e02961a9f4b45c0_1672_72x72_resize_lanczos_3.png",
+      "sizes": "72x72",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/favicon_hu34fadd5a97e9dcb70e02961a9f4b45c0_1672_96x96_resize_lanczos_3.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/favicon_hu34fadd5a97e9dcb70e02961a9f4b45c0_1672_144x144_resize_lanczos_3.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/favicon_hu34fadd5a97e9dcb70e02961a9f4b45c0_1672_192x192_resize_lanczos_3.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/images/favicon_hu34fadd5a97e9dcb70e02961a9f4b45c0_1672_512x512_resize_lanczos_3.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+  
+  
+}
