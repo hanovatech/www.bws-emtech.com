@@ -1,0 +1,65 @@
+@import "node_modules/tailwindcss/base";
+@import "node_modules/tailwindcss/components";
+@import "node_modules/tailwindcss/utilities";
+
+html {
+  scroll-behavior: smooth;
+}
+
+::selection {
+  background: rgb(72, 123, 234);
+  background: rgba(72, 123, 234, .75);
+}
+
+.prose h1 {
+  line-height: 1.2em;
+}
+
+.prose h1,
+.prose h2,
+.prose h3,
+.prose h4,
+.prose h5 {
+  scroll-margin-top: 128px;
+}
+
+.prose a {
+  text-underline-offset: 2px;
+  text-decoration-color: #2563EB;
+  text-decoration-thickness: 2px;
+  text-decoration-skip-ink: auto;
+}
+
+.prose img {
+  border: 1px solid rgb(229, 231, 235);
+  border-radius: .75rem;
+}
+
+.not-prose img {
+  border: none !important;
+}
+
+#TableOfContents {
+  ul > li {
+    color: #6b7280;
+    font-family: monospace;
+    font-size: 16px;
+    line-height: 1.2em;
+    margin-bottom: 20px;
+  }
+
+  ul > li > ul > li {
+    font-size: 14px;
+    margin-left: 12px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+  }
+
+  ul > li > ul > li > ul > li {
+    margin-left: 18px;
+  }
+
+  ul > li:last-child {
+    margin-bottom: 0;
+  }
+}

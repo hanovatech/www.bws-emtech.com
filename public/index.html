@@ -233,6 +233,11 @@ if (!doNotTrack) {
 
 
 
+
+<link rel="stylesheet" href="/tailwind/styles.min.f014ea421053bd8aa373d3b0186d60e0965e3bb1c8a2ee14279e915c24cbbf70.css" integrity="sha256-8BTqQhBTvYqjc9OwGG1g4JZeO7HIou4UJ56RXCTLv3A=">
+
+
+
     
     
       
@@ -15660,160 +15665,258 @@ img.arrow-bottom {
 
 
     
-    
-<header>
+    <header class="z-10 w-full bg-white transition-shadow duration-300">
+  <nav class="mx-auto flex max-w-7xl items-center justify-between !p-6 lg:px-8" aria-label="Global">
+    <div class="flex lg:flex-1">
+      <div class="opacity-100 hidden"></div>
+      <a id="header-icon" href="/" class="-m-1.5 p-1.5">
+        <span class="sr-only">BWS E-Mobility Technologies</span>
+        <img class="h-10 w-auto" src="/images/logo.png" alt="BWS E-Mobility Technologies Logo">
+      </a>
+    </div>
+    <div class="flex lg:hidden">
+      <button id="header-open-button" type="button" class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700">
+        <span class="sr-only">Open main menu</span>
+        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+      </button>
+    </div>
+    <div class="hidden lg:flex lg:gap-x-12">
+      
+        
+          <div class="relative">
+            <button type="button" class="header-flyout-button flex items-center gap-x-1 text-sm font-semibold tracking-wide leading-6 text-gray-900 hover:text-gray-900 uppercase" aria-expanded="false">
+              Services
+              <svg class="h-5 w-5 flex-none text-gray-400 pointer-events-none" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
+              </svg>
+            </button>
+            
+              <div class="header-flyout-menu opacity-0 invisible absolute -left-8 top-full z-10 mt-3 w-screen max-w-md overflow-hidden rounded-3xl bg-white shadow-lg ring-1 ring-gray-900/5 ease-in-out duration-200">
+                <div class="p-4">
+                  
+                    <a href="/service" class="group block !p-2 text-center rounded-lg hover:bg-gray-50">
+                      <span class="text-sm font-semibold text-blue-800 group-hover:text-blue-700">Our Services</span>
+                    </a>
+                  
+                  
+                    <div class="group relative flex items-center gap-x-6 rounded-lg !p-4 text-sm leading-6 hover:bg-gray-50">
+                      <div class="flex h-11 w-11 flex-none items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white">
+                        <svg class="w-6 h-6 text-gray-600 group-hover:text-blue-600" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                          <path stroke-linecap="round" stroke-linejoin="round" d="m3.75 13.5 10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75Z" />
+                        </svg>
+                      </div>
+                      <div class="flex-auto">
+                        <a href="/service/system-design-electric-powertrain" class="block font-semibold text-gray-900 hover:text-gray-900">
+                          System Design Electric Powertrain
+                          <span class="absolute inset-0"></span>
+                        </a>
+                        <p class="mt-1 text-gray-600">Electric powertrain design for any vehicle</p>
+                      </div>
+                    </div>
+                  
+                    <div class="group relative flex items-center gap-x-6 rounded-lg !p-4 text-sm leading-6 hover:bg-gray-50">
+                      <div class="flex h-11 w-11 flex-none items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white">
+                        <svg class="w-6 h-6 text-gray-600 group-hover:text-blue-600" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                          <path stroke-linecap="round" stroke-linejoin="round" d="M21 10.5h.375c.621 0 1.125.504 1.125 1.125v2.25c0 .621-.504 1.125-1.125 1.125H21M4.5 10.5h6.75V15H4.5v-4.5ZM3.75 18h15A2.25 2.25 0 0 0 21 15.75v-6a2.25 2.25 0 0 0-2.25-2.25h-15A2.25 2.25 0 0 0 1.5 9.75v6A2.25 2.25 0 0 0 3.75 18Z" />
+                        </svg>
+                      </div>
+                      <div class="flex-auto">
+                        <a href="/service/battery-management-system" class="block font-semibold text-gray-900 hover:text-gray-900">
+                          Battery Management System
+                          <span class="absolute inset-0"></span>
+                        </a>
+                        <p class="mt-1 text-gray-600">Battery management system development</p>
+                      </div>
+                    </div>
+                  
+                    <div class="group relative flex items-center gap-x-6 rounded-lg !p-4 text-sm leading-6 hover:bg-gray-50">
+                      <div class="flex h-11 w-11 flex-none items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white">
+                        <svg class="w-6 h-6 text-gray-600 group-hover:text-blue-600" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                          <path stroke-linecap="round" stroke-linejoin="round" d="M16.712 4.33a9.027 9.027 0 0 1 1.652 1.306c.51.51.944 1.064 1.306 1.652M16.712 4.33l-3.448 4.138m3.448-4.138a9.014 9.014 0 0 0-9.424 0M19.67 7.288l-4.138 3.448m4.138-3.448a9.014 9.014 0 0 1 0 9.424m-4.138-5.976a3.736 3.736 0 0 0-.88-1.388 3.737 3.737 0 0 0-1.388-.88m2.268 2.268a3.765 3.765 0 0 1 0 2.528m-2.268-4.796a3.765 3.765 0 0 0-2.528 0m4.796 4.796c-.181.506-.475.982-.88 1.388a3.736 3.736 0 0 1-1.388.88m2.268-2.268 4.138 3.448m0 0a9.027 9.027 0 0 1-1.306 1.652c-.51.51-1.064.944-1.652 1.306m0 0-3.448-4.138m3.448 4.138a9.014 9.014 0 0 1-9.424 0m5.976-4.138a3.765 3.765 0 0 1-2.528 0m0 0a3.736 3.736 0 0 1-1.388-.88 3.737 3.737 0 0 1-.88-1.388m2.268 2.268L7.288 19.67m0 0a9.024 9.024 0 0 1-1.652-1.306 9.027 9.027 0 0 1-1.306-1.652m0 0 4.138-3.448M4.33 16.712a9.014 9.014 0 0 1 0-9.424m4.138 5.976a3.765 3.765 0 0 1 0-2.528m0 0c.181-.506.475-.982.88-1.388a3.736 3.736 0 0 1 1.388-.88m-2.268 2.268L4.33 7.288m6.406 1.18L7.288 4.33m0 0a9.024 9.024 0 0 0-1.652 1.306A9.025 9.025 0 0 0 4.33 7.288" />
+                        </svg>
+                      </div>
+                      <div class="flex-auto">
+                        <a href="/service/a-spice-and-functional-safety" class="block font-semibold text-gray-900 hover:text-gray-900">
+                          A-Spice and Functional Safety
+                          <span class="absolute inset-0"></span>
+                        </a>
+                        <p class="mt-1 text-gray-600">We prioritize ISO26262 saftey standards</p>
+                      </div>
+                    </div>
+                  
+                </div>
+              </div>
+            
+          </div>
+        
+      
+        
+          <a href="/blog" class="text-sm font-semibold leading-6 text-gray-900 hover:text-gray-900 tracking-wide uppercase">Blog</a>
+        
+      
+        
+          <a href="/about" class="text-sm font-semibold leading-6 text-gray-900 hover:text-gray-900 tracking-wide uppercase">About us</a>
+        
+      
+    </div>
+    <div class="hidden lg:flex lg:flex-1 lg:justify-end">
+      <a href="/contact" class="rounded-full bg-[#1e40af] px-3.5 py-2.5 text-sm font-semibold !text-white tracking-wide uppercase shadow-sm hover:bg-blue-700 hover:!text-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600 duration-200">
+        Contact us
+      </a>
+    </div>
+  </nav>
 
-  <!-- top header -->
-  <div class="top-header">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-          <ul class="list-inline text-lg-end text-center">
+  <div id="header-mobile-menu" class="hidden lg:hidden" role="dialog" aria-modal="true">
+    <div class="fixed inset-0 z-10 backdrop-blur-sm"></div>
+    <div focus="true" class="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+      <div class="flex items-center justify-between">
+        <a href="/" class="-m-1.5 p-1.5">
+          <span class="sr-only">HanovaTech</span>
+          <img class="w-48" src="/images/hanovatech_logo_color.svg" alt="HanovaTech">
+        </a>
+        <button id="header-close-button" type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700">
+          <span class="sr-only">Close menu</span>
+          <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+          </svg>
+        </button>
+      </div>
+      <div class="mt-6 flow-root">
+        <div class="-my-6 divide-y divide-gray-500/10">
+          <div class="space-y-2 py-6">
             
-            <li class="list-inline-item">
-              <a href="mailto:https://bws.lemon.akmnn.de/contact@bws-emtech.com">contact@bws-emtech.com</a>
-            </li>
+              
+                <div class="-mx-3">
+                  <button type="button" class="header-submenu-button flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 hover:bg-gray-50" aria-controls="disclosure-1" aria-expanded="false">
+                    Services
+                    <svg class="h-5 w-5 flex-none pointer-events-none" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                      <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
+                    </svg>
+                  </button>
+                  <div class="hidden mt-2 space-y-2">
+                    
+                      <a href="/service" class="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50">Übersicht</a>
+                    
+                    
+                      <a href="/service/system-design-electric-powertrain" class="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50">System Design Electric Powertrain</a>
+                    
+                      <a href="/service/battery-management-system" class="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50">Battery Management System</a>
+                    
+                      <a href="/service/a-spice-and-functional-safety" class="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50">A-Spice and Functional Safety</a>
+                    
+                  </div>
+                </div>
+              
             
+              
+                <a href="/blog" class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Blog</a>
+              
             
-            <li class="list-inline-item">
-              <a href="callto:&#43;49%280%297031%20714%2066%2055">Call Us Now:
-                <span class="ms-2">&#43;49(0)7031 714 66 55</span>
-              </a>
-            </li>
+              
+                <a href="/about" class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">About us</a>
+              
             
-          </ul>
+          </div>
+          <div class="py-6">
+            <a href="/kontakt" class="-mx-3 block bg-blue-600 rounded-lg py-2.5 px-3 text-center text-white font-semibold leading-7 text-gray-900 hover:bg-blue-700 duration-200">
+              Kontakt <span aria-hidden="true">&rarr;</span>
+            </a>
+          </div>
         </div>
       </div>
     </div>
   </div>
-  <!-- nav bar -->
-
-  <div class="navigation">
-    <div class="container">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="/">
-          
-          
-          
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-  
-  
-  
-
-
-  
-  
-    
-    
-  
-
-
-  
-  
-    
-    
-    
-      
-      
-    
-    
-    
-    
-    
-  
-  
-
-  
-  
-  
-
-  
-    <img
-      fetchpriority="high"
-      decoding="async"
-      class="img"
-      width="110"
-      height="840"
-      src="/images/logo_hu9d12336ec556308acdab2294f0514dd3_20242_220x0_resize_lanczos_3.png"
-      alt="Biztrox"
-      onerror="this.onerror=null;this.src='\/images\/logo_hu9d12336ec556308acdab2294f0514dd3_20242_220x0_resize_lanczos_3.png'" />
-  
-  
-
-
-          
-        </a>
-        <button class="navbar-toggler shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navigation"
-          aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="ti-menu fs-6"></span>
-          <span class="ti-close fs-6"></span>
-        </button>
-
-        <div class="collapse navbar-collapse text-center" id="navigation">
-          <ul class="navbar-nav ms-auto">
-            
-            
-            <li class="nav-item">
-              <a class="nav-link" href="/">Home</a>
-            </li>
-            
-            
-            
-            <li class="nav-item">
-              <a class="nav-link" href="/service/">Service</a>
-            </li>
-            
-            
-            
-            <li class="nav-item">
-              <a class="nav-link" href="/blog/">Blog</a>
-            </li>
-            
-            
-            
-            <li class="nav-item">
-              <a class="nav-link" href="/about/">About</a>
-            </li>
-            
-            
-          </ul>
-
-          
-          
-
-          
-          
-          <a class="nav-link btn btn-primary btn-sm" style="margin-left: 12px; padding: 13px 20px !important;" href="/contact">Contact Us</a>
-          
-        </div>
-      </nav>
-    </div>
-  </div>
 </header>
+
+
+  
+<script>
+  
+  function toggleFixedHeader() {
+    if (window.scrollY === 0) {
+      const headers = document.getElementsByTagName("header")
+      headers[0].classList.remove("fixed", "shadow-md")
+      if (headers.length > 1)
+        headers[1].remove()
+    } else {
+      const headers = document.getElementsByTagName("header")
+      if (headers.length === 1) {
+        const new_header = headers[0].cloneNode(true)
+        new_header.style.zIndex = -1
+        new_header.style.opacity = 0
+        headers[0].classList.add("fixed", "shadow-md")
+        headers[0].after(new_header)
+      }
+    }
+  }
+
+  toggleFixedHeader()
+  window.addEventListener("scroll", () => {
+    toggleFixedHeader()
+  })
+  
+
+  
+  document.getElementById("header-open-button").addEventListener("click", () => {
+    document.getElementById("header-mobile-menu").classList.toggle("hidden")
+  })
+
+  document.getElementById("header-close-button").addEventListener("click", () => {
+    document.getElementById("header-mobile-menu").classList.toggle("hidden")
+  })
+  
+
+  
+  const mobileSubmenuButtons = document.getElementsByClassName("header-submenu-button")
+  for (const button of mobileSubmenuButtons) {
+    button.addEventListener("click", event => {
+      const button = event.target
+      button.children[0].classList.toggle("rotate-180")
+      const submenu = button.nextElementSibling
+      submenu.classList.toggle("hidden")
+    })
+  }
+  
+
+  
+  const desktopFlyoutButtons = document.getElementsByClassName("header-flyout-button")
+  for (const button of desktopFlyoutButtons) {
+    button.addEventListener("click", event => {
+      
+      for (const b of desktopFlyoutButtons) {
+        if (b != event.target) {
+          b.nextElementSibling.style.opacity = "0"
+          b.nextElementSibling.style.visibility = "hidden"
+        }
+      }
+
+      
+      const flyoutMenu = event.target.nextElementSibling
+      if (flyoutMenu.style.opacity != 1) {
+        flyoutMenu.style.setProperty("opacity", "1", "important")
+        flyoutMenu.style.setProperty("visibility", "visible", "important")
+        
+      } else {
+        flyoutMenu.style.opacity = 0
+        flyoutMenu.style.visibility = "hidden"
+      }
+    })
+  }
+
+  function closeFlyoutMenus(event) {
+    if (!event.target.classList.contains("header-flyout-button")) {
+      for (const flyoutMenu of document.getElementsByClassName("header-flyout-menu")) {
+        flyoutMenu.style.opacity = 0
+        flyoutMenu.style.visibility = "hidden"
+      }
+    }
+  }
+
+  document.addEventListener("click", closeFlyoutMenus)
+  
+</script>
 
 
     
@@ -16172,7 +16275,7 @@ style="background-image: url(/images/banner/systemy_hu49f79e85ab58d9cfef042b10cb
 
 
 <!-- client logo slider -->
-<section class="bg-white py-4 mt-4">
+<section class="bg-white py-4 mt-20">
 	<div class="container">
 		<div class="client-logo-slider swiper align-self-center">
 			<div class="swiper-wrapper align-items-center">
@@ -18443,6 +18546,74 @@ style="background-image: url(/images/background/about-bg_hu72c7a830ad49c9ade6a74
 	</div>
 </section>
 
+
+
+
+
+
+<section class="section">
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-lg-12 text-center">
+				<span class="section-title-sm h5">FAQ</span>
+				<h2 class="section-title section-title-border">Frequently Asked Questions</h2>
+			</div>
+			<div class="col-lg-8">
+				<div class="accordion accordion-alternate" id="accordionExample">
+					
+					<div class="accordion-item">
+						<h2 class="accordion-header" id="heading0">
+							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+								data-bs-target="#collapse0" aria-expanded="false"
+								aria-controls="collapse0">
+								What sets BWS e-Mobility apart, and is it the right partner for you?
+							</button>
+						</h2>
+						<div id="collapse0" class="accordion-collapse collapse"
+							aria-labelledby="heading0" data-bs-parent="#accordionExample">
+							<div class="accordion-body visible">
+								<p>With over 15 years of expertise in electric powertrain design, battery technology, AI, IoT, and cloud solutions, BWS stands out as an ideal partner. Our diverse skill set, innovative tools like SYSTEMY, and commitment to sustainability make us the right choice. Specializing in collaborative team integration, offering customized solutions, and providing end-to-end support, BWS ensures success for your electric mobility and technology projects.</p>
+							</div>
+						</div>
+					</div>
+					
+					<div class="accordion-item">
+						<h2 class="accordion-header" id="heading1">
+							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+								data-bs-target="#collapse1" aria-expanded="false"
+								aria-controls="collapse1">
+								What consulting services does BWS e-Mobility provide?
+							</button>
+						</h2>
+						<div id="collapse1" class="accordion-collapse collapse"
+							aria-labelledby="heading1" data-bs-parent="#accordionExample">
+							<div class="accordion-body visible">
+								<p>BWS offers consulting in e-powertrain system design, component simulation, Scrum and V-Model project management, power electronics hardware design, and battery technology. Our tailored, expert-led services provide comprehensive support for electric mobility projects.</p>
+							</div>
+						</div>
+					</div>
+					
+					<div class="accordion-item">
+						<h2 class="accordion-header" id="heading2">
+							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+								data-bs-target="#collapse2" aria-expanded="false"
+								aria-controls="collapse2">
+								How does BWS e-Mobility collaborate with clients in terms of team integration and expertise?
+							</button>
+						</h2>
+						<div id="collapse2" class="accordion-collapse collapse"
+							aria-labelledby="heading2" data-bs-parent="#accordionExample">
+							<div class="accordion-body visible">
+								<p>BWS seamlessly integrates into your team, offering dedicated experts and qualified engineers. Our collaboration model emphasizes effective communication, flexible resource scaling, knowledge transfer, and a commitment to delivering high-quality results. We prioritize a collaborative partnership, ensuring the right expertise integrates seamlessly with your team for project success.</p>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
 
 
 

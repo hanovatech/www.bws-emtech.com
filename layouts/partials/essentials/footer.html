@@ -5,9 +5,9 @@
         <div class="col-md-4">
           <div class="mb-5 mb-md-0 text-center text-md-start">
             <!-- logo -->
-            <a class="mb-30 d-inline-block" href="{{ site.BaseURL | relLangURL }}">
+            <a id="footer-logo-link" class="mb-30 d-inline-block" href="{{ site.BaseURL | relLangURL }}">
               {{ if site.Params.logo_footer }} 
-              {{ partial "image.html" (dict "Src" .Site.Params.logo_footer "Alt" "biztrox" "Width" .Site.Params.logo_footer_width) }}
+              {{ partial "image.html" (dict "Src" .Site.Params.logo_footer "Alt" "BWS Logo White") }}
               {{ else }}
               {{site.Title}}
               {{ end }}
@@ -83,7 +83,7 @@
             {{ .Site.Params.copyright }}
             {{ with .Site.Params.theme_copyright }}
             | Created by
-            <a target="_blank" rel="noopener noreferrer" href="https://hanovatech.de/">HanovaTech</a>
+            <a class="text-white font-semibold" target="_blank" rel="noopener noreferrer" href="https://hanovatech.de/">HanovaTech</a>
             {{ end }}
           </p>
         </div>

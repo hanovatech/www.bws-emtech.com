@@ -130,11 +130,24 @@ skill:
 
 ########################################## project ####################################
 project:
-  enable: true
+  enable: false
   title: "Latest Projects"
   subtitle: "Our Works"
   section: "project" # showing items from project section
   # project item comes from "content/project" folder
+
+########################################### team ######################################
+faq:
+  enable: true
+  title: "Frequently Asked Questions"
+  subtitle: "FAQ"
+  entries:
+    - question: What sets BWS e-Mobility apart, and is it the right partner for you? 
+      answer: With over 15 years of expertise in electric powertrain design, battery technology, AI, IoT, and cloud solutions, BWS stands out as an ideal partner. Our diverse skill set, innovative tools like SYSTEMY, and commitment to sustainability make us the right choice. Specializing in collaborative team integration, offering customized solutions, and providing end-to-end support, BWS ensures success for your electric mobility and technology projects.
+    - question: What consulting services does BWS e-Mobility provide?
+      answer: BWS offers consulting in e-powertrain system design, component simulation, Scrum and V-Model project management, power electronics hardware design, and battery technology. Our tailored, expert-led services provide comprehensive support for electric mobility projects.
+    - question: How does BWS e-Mobility collaborate with clients in terms of team integration and expertise?
+      answer: BWS seamlessly integrates into your team, offering dedicated experts and qualified engineers. Our collaboration model emphasizes effective communication, flexible resource scaling, knowledge transfer, and a commitment to delivering high-quality results. We prioritize a collaborative partnership, ensuring the right expertise integrates seamlessly with your team for project success.
 
 ########################################### Mission ###################################
 mission:

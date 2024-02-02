@@ -53,3 +53,8 @@
 
 <!-- Crisp Chat -->
 {{ partialCached "crisp-chat.html" . }}
+
+<!-- Tailwind CSS Links Start -->
+{{ $styles := resources.Get "tailwind/styles.scss" | toCSS | postCSS (dict "config" "./assets/tailwind/postcss.config.js") | minify | fingerprint | resources.PostProcess }}
+<link rel="stylesheet" href="{{ $styles.RelPermalink }}" integrity="{{ $styles.Data.Integrity }}">
+<!-- Tailwind CSS Links End -->
