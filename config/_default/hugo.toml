@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://bws.lemon.akmnn.de/"
+baseURL = "https://bws-emtech.com/"
 title = "BWS E-Mobility Technologies"
 # Default time zone for time stamps; use any valid tz database name: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List
 timeZone = "Europe/Berlin"
@@ -12,7 +12,7 @@ googleAnalytics = "UA-123456-78" # example: UA-123456-78, for more info, read th
 # disqus short name
 disqusShortname = "themefisher-template" # we use disqus to show comments in blog posts . To install disqus please follow this tutorial https://portfolio.peter-baumgartner.net/2017/09/10/how-to-install-disqus-on-hugo/
 # disable language
-disableLanguages = [ "fr" ] 
+disableLanguages = ["fr"]
 # example: ["fr"] for disable french language. see https://gohugo.io/content-management/multilingual/
 hasCJKLanguage = false #  If hasCJKLanguage true, auto-detect Chinese/Japanese/Korean Languages in the content. see: https://gohugo.io/getting-started/configuration/#hascjklanguage
 
@@ -89,4 +89,4 @@ suffixes = ["webmanifest"]
 [outputFormats]
 [outputFormats.WebAppManifest]
 mediaType = "application/manifest+json"
-rel = "manifest"  
+rel = "manifest"
