@@ -101,16 +101,21 @@
     <loc>https://bws.lemon.akmnn.de/team/</loc>
     <lastmod>2018-07-12T18:19:33+06:00</lastmod>
   </url><url>
-    <loc>https://bws.lemon.akmnn.de/pricing/</loc>
-    <lastmod>2018-07-12T18:19:33+06:00</lastmod>
-  </url><url>
     <loc>https://bws.lemon.akmnn.de/service/</loc>
     <lastmod>2018-07-12T18:19:33+06:00</lastmod>
   </url><url>
     <loc>https://bws.lemon.akmnn.de/author/</loc>
   </url><url>
+    <loc>https://bws.lemon.akmnn.de/legal/</loc>
+  </url><url>
     <loc>https://bws.lemon.akmnn.de/author/john-doe/</loc>
   </url><url>
     <loc>https://bws.lemon.akmnn.de/author/mark-dinn/</loc>
+  </url><url>
+    <loc>https://bws.lemon.akmnn.de/contact-success/</loc>
+  </url><url>
+    <loc>https://bws.lemon.akmnn.de/privacy/</loc>
+  </url><url>
+    <loc>https://bws.lemon.akmnn.de/terms-of-service/</loc>
   </url>
 </urlset>

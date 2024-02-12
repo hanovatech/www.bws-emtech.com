@@ -156,11 +156,11 @@
       <description></description>
     </item>
     <item>
-      <title>Pricing</title>
-      <link>https://bws.lemon.akmnn.de/pricing/</link>
-      <pubDate>Thu, 12 Jul 2018 18:19:33 +0600</pubDate>
-      <guid>https://bws.lemon.akmnn.de/pricing/</guid>
-      <description>Pricing For You Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</description>
+      <title>Impressum</title>
+      <link>https://bws.lemon.akmnn.de/legal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://bws.lemon.akmnn.de/legal/</guid>
+      <description>Unser Impressum gilt für die Seite bws-emtech.com sowie für die BWS EmTech Socialmedia Seiten auf Facebook, Instagram und Linkedin.</description>
     </item>
     <item>
       <title>John Doe</title>
@@ -175,6 +175,27 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://bws.lemon.akmnn.de/author/mark-dinn/</guid>
       <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet vulputate augue.</description>
+    </item>
+    <item>
+      <title>Message received</title>
+      <link>https://bws.lemon.akmnn.de/contact-success/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://bws.lemon.akmnn.de/contact-success/</guid>
+      <description>We got your message ✅ Thank you for contacting us, we will contact you as soon as possible!</description>
+    </item>
+    <item>
+      <title>Privacy Policy</title>
+      <link>https://bws.lemon.akmnn.de/privacy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://bws.lemon.akmnn.de/privacy/</guid>
+      <description>Allgemeine Datenschutzerklärung Durch die Nutzung unserer Website erklären Sie sich mit der Erhebung, Verarbeitung und Nutzung von Daten gemäß der nachfolgenden Beschreibung einverstanden.</description>
+    </item>
+    <item>
+      <title>Terms of Service</title>
+      <link>https://bws.lemon.akmnn.de/terms-of-service/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://bws.lemon.akmnn.de/terms-of-service/</guid>
+      <description>AGREEMENT TO TERMS These Terms of Use constitute a legally binding agreement made between you, whether personally or on behalf of an entity (“you”) and BWS e-Mobility Technologies GmbH (&amp;ldquo;Company&amp;rdquo;, “we”, “us”, or “our”), concerning your access to and use of the https://www.</description>
     </item>
   </channel>
 </rss>
