@@ -18,20 +18,21 @@ slider:
         link: "about/"
 
     # slider item loop
-    - bg_image: images/banner/banner-2.jpg
+    - bg_image: images/banner/consulting.jpg
       animation_from: up
       subtitle: We help you to
       title: Get your Projects running
       content: Empowering your vision, we provide comprehensive support to your projects <br> and ensuring successful realization of your goals.
       pagination_icon: ti-comments # themify icon pack : https://themify.me/themify-icons
       pagination_name: Consulting
+      textWhite: true
       button:
         enable: true
         label: More details
         link: "about/"
 
     # slider item loop
-    - bg_image: images/banner/systemy.jpg
+    - bg_image: images/banner/systemy-2.jpg
       animation_from: down
       subtitle: We enable you to
       title: Use AI to design your EV

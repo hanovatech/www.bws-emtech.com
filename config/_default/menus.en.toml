@@ -24,20 +24,20 @@ weight = 5
 # footer menu
 [[footer]]
 name = "Legal"
-url = "#"
+url = "/legal"
 weight = 1
 
 [[footer]]
 name = "Sitemap"
-url = "#"
+url = "/sitemap.xml"
 weight = 2
 
 [[footer]]
 name = "Privacy Policy"
-url = "#"
+url = "/privacy"
 weight = 3
 
 [[footer]]
-name = "Terms & Conditions"
-url = "#"
+name = "Terms of Service"
+url = "/terms-of-service"
 weight = 4

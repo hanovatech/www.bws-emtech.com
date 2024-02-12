@@ -6,14 +6,6 @@ description : "This is meta description"
 layout: "about"
 draft: false
 
-###################################### philosophy ####################################
-philosophy:
-  enable : true
-  subtitle : Know About
-  title : Our Philosophy
-  content : "At BWS EmTech, our philosophy is to deliver reliable and innovative Battery Management Systems with a commitment to sustainability. We believe in practical solutions that redefine energy storage, prioritizing efficiency and environmental responsibility. Our focus on cutting-edge technology and integrity guides us in empowering businesses and individuals for a greener, more efficient future."
-  image : images/about/philosophy.jpg
-
 ###################################### ceo ########################################
 ceo:
   enable : true
@@ -23,6 +15,14 @@ ceo:
   signature : "images/about/ceo-signature.png"
   name : Waleed Sahhary
   designation : CEO
+
+###################################### philosophy ####################################
+philosophy:
+  enable : true
+  subtitle : Know About
+  title : Our Philosophy
+  content : "At BWS EmTech, our philosophy is to deliver reliable and innovative Battery Management Systems with a commitment to sustainability. We believe in practical solutions that redefine energy storage, prioritizing efficiency and environmental responsibility. Our focus on cutting-edge technology and integrity guides us in empowering businesses and individuals for a greener, more efficient future."
+  image : images/about/philosophy.jpg
 
 ########################################### Mission ###################################
 mission:

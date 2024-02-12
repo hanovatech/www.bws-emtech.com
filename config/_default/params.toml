@@ -11,7 +11,7 @@ logo_width = "110px"
 # if logo_webp set false, will not generate WEBP version of logo | default is true
 logo_webp = false
 # logo text will only show when logo is missing.
-logo_text = "Biztrox"
+logo_text = "BWS e-Mobility Technologies"
 # purgeCSS
 purge_css = true
 # Main Sections
@@ -68,11 +68,11 @@ crisp_website_id = "9aa449e1-9999-422a-938f-8567982eec6d" # replace this code wi
 
 # seo meta data for OpenGraph / Twitter Card
 [metadata]
-author = "Themefisher"
-description = "This is meta description"
-image = "images/favicon.png"                                       # this image will be used as fallback if a page has no image of its own
-bg_image = "images/background/page-title.jpg"                      # this image will be used as fallback if a page has no image of its own
-keywords = ["Boilerplate", "Hugo", "Themefisher", "GetHugoThemes"]
+author = "BWS e-Mobility Technologies GmbH"
+description = "BWS e-Mobility Technologies GmbH is a leading provider of energy storage solutions for electric vehicles, e-bikes, and other applications. We offer a wide range of products and services, including battery management systems, battery packs, and battery testing equipment."
+image = "images/favicon.png"                                                                                                                                                                                                                                                                   # this image will be used as fallback if a page has no image of its own
+bg_image = "images/background/page-title.jpg"                                                                                                                                                                                                                                                  # this image will be used as fallback if a page has no image of its own
+keywords = ["eMobility", "company", "powertrain"]
 
 # matomo tracking: see https://matomo.org/
 [matomo]

@@ -1,5 +1,31 @@
 {{ define "main" }}
 
+{{ with .Params.ceo }}
+{{ if .enable }}
+{{ "<!-- ceo section -->" | safeHTML }}
+<section>
+	<div class="container mt-20">
+		<div class="row rounded bg-secondary">
+			{{ "<!-- ceo image -->" | safeHTML }}
+			<div class="col-lg-5 rounded-start ceo-image" {{ partial `bg-image.html` (dict `Src` "images/about/ceo.jpg" ) |
+				safeHTMLAttr }}></div>
+			<div class="col-lg-7">
+				{{ "<!-- ceo content -->" | safeHTML }}
+				<div class="p-3 p-sm-5">
+					<h2 class="section-title section-title-border-half-white text-white">{{ .title | markdownify }}</h2>
+					<p class="text-white">{{ .content | markdownify }}</p>
+					{{/*  {{ partial "image.html" (dict "Src" .signature "Alt" "ceo-signature") }}  */}}
+					<h5 class="text-white">{{ .name | markdownify }}</h5>
+					<h6 class="text-white">{{ .designation | markdownify }}</h6>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+{{ "<!-- /ceo section -->" | safeHTML }}
+{{ end }}
+{{ end }}
+
 {{ with .Params.philosophy }}
 {{ if .enable }}
 {{ "<!-- philosophy -->" | safeHTML }}
@@ -19,32 +45,6 @@
 	</div>
 </section>
 {{ "<!-- /philosophy -->" | safeHTML }}
-{{ end }}
-{{ end }}
-
-{{ with .Params.ceo }}
-{{ if .enable }}
-{{ "<!-- ceo section -->" | safeHTML }}
-<section>
-	<div class="container">
-		<div class="row rounded bg-secondary">
-			{{ "<!-- ceo image -->" | safeHTML }}
-			<div class="col-lg-5 rounded-start ceo-image" {{ partial `bg-image.html` (dict `Src` "images/about/ceo.jpg" ) |
-				safeHTMLAttr }}></div>
-			<div class="col-lg-7">
-				{{ "<!-- ceo content -->" | safeHTML }}
-				<div class="p-3 p-sm-5">
-					<h2 class="section-title section-title-border-half-white text-white">{{ .title | markdownify }}</h2>
-					<p class="text-white">{{ .content | markdownify }}</p>
-					{{/*  {{ partial "image.html" (dict "Src" .signature "Alt" "ceo-signature") }}  */}}
-					<h5 class="text-white">{{ .name | markdownify }}</h5>
-					<h6 class="text-white">{{ .designation | markdownify }}</h6>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-{{ "<!-- /ceo section -->" | safeHTML }}
 {{ end }}
 {{ end }}
 

@@ -15312,3 +15312,10 @@ img.arrow-bottom {
 .px-6 {
   padding-left: 1.5rem !important;
   padding-right: 1.5rem !important; }
+
+#header-icon img {
+  height: 50px;
+  width: auto; }
+
+#footer-logo-link img {
+  width: 100px; }
