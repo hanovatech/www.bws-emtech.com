@@ -30,7 +30,7 @@
                 <div class="p-4">
                   {{ if isset . "url" }}
                     <a href="{{ .url }}" class="group block !p-2 text-center rounded-lg hover:bg-gray-50">
-                      <span class="text-sm font-semibold text-blue-800 group-hover:text-blue-700">{{ if isset . "label" }}{{ .label }}{{ else }}Übersicht{{ end }}</span>
+                      <span class="text-sm font-semibold text-blue-800 group-hover:text-blue-700">{{ if isset . "label" }}{{ .label }}{{ else }}Overview{{ end }}</span>
                     </a>
                   {{ end }}
                   {{ range .childs }}
@@ -76,8 +76,8 @@
     <div focus="true" class="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
       <div class="flex items-center justify-between">
         <a href="/" class="-m-1.5 p-1.5">
-          <span class="sr-only">HanovaTech</span>
-          <img class="w-48" src="/images/hanovatech_logo_color.svg" alt="HanovaTech">
+          <span class="sr-only">BWS E-Mobility Technologies</span>
+          {{ partial "image.html" (dict "Src" .Site.Params.logo "Alt" "BWS Logo White") }}
         </a>
         <button id="header-close-button" type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700">
           <span class="sr-only">Close menu</span>
@@ -100,7 +100,7 @@
                   </button>
                   <div class="hidden mt-2 space-y-2">
                     {{ if isset . "url" }}
-                      <a href="{{ .url }}" class="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50">Übersicht</a>
+                      <a href="{{ .url }}" class="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50">Overview</a>
                     {{ end }}
                     {{ range .childs }}
                       <a href="{{ .url }}" class="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50">{{ .name }}</a>
@@ -113,8 +113,8 @@
             {{ end }}
           </div>
           <div class="py-6">
-            <a href="/kontakt" class="-mx-3 block bg-blue-600 rounded-lg py-2.5 px-3 text-center text-white font-semibold leading-7 text-gray-900 hover:bg-blue-700 duration-200">
-              Kontakt <span aria-hidden="true">&rarr;</span>
+            <a href="/contact" class="-mx-3 block bg-blue-600 rounded-lg py-2.5 px-3 text-center text-white font-semibold leading-7 text-gray-900 hover:bg-blue-700 duration-200">
+              Contact us <span aria-hidden="true">&rarr;</span>
             </a>
           </div>
         </div>
