@@ -53,19 +53,15 @@ funfacts:
     
   - title : Satisfied Clients
     icon : ti-face-smile # themify icon pack : https://themify.me/themify-icons
-    count : 789
+    count : 125
     
   - title : Cup Of Coffee
     icon : ti-thumb-up # themify icon pack : https://themify.me/themify-icons
     count : 580
-    
-  - title : Awards Win
-    icon : ti-cup # themify icon pack : https://themify.me/themify-icons
-    count : 130
 
 ########################################### skill ###################################
 skill:
-  enable : true
+  enable : false
   inherit_homepage: true
   subtitle : Our Skills
   title : Why Choose Us
