@@ -38,6 +38,7 @@
       {{ block "main" . }}{{ end }}
     </main>
 
+    {{ partial "essentials/cookie.html" . }}
     <!-- cache partial only in production -->
     {{ if hugo.IsProduction }}
       {{ partialCached "essentials/footer.html" . }}
