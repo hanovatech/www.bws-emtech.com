@@ -4,9 +4,33 @@ backend:
 media_folder: "static/images/uploads"
 public_folder: "/images/uploads"
 collections:
-  - name: blog
-    label: Blog
-    folder: content/blog
-    create: true
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
+  - name: pages
+    label: Pages
+    files: 
+      - name: home
+        label: Home
+        file: content/_index.md
+        fields:
+          - label: Hero Slider
+            name: slider
+            widget: object
+            fields:
+              - { label: "Enable", name: "enable", widget: "boolean" }
+              - label: Slides
+                name: slides
+                widget: list
+                fields:
+                  - { label: "Image", name: "bg_image", widget: "image" }
+                  - { label: "Subtitle", name: "subtitle", widget: "string" }
+                  - { label: "Title", name: "title", widget: "string" }
+                  - { label: "Content", name: "content", widget: "text" }
+                  - { label: "Pagination Icon", name: "pagination_icon", widget: "string" }
+                  - { label: "Pagination Name", name: "pagination_name", widget: "string" }
+                  - { label: "White Text", name: "textWhite", widget: "boolean" }
+                  - label: "Button"
+                    name: "button"
+                    widget: object
+                    fields:
+                      - { label: "Enable", name: "enable", widget: "boolean" }
+                      - { label: "Label", name: "label", widget: "string" }
+                      - { label: "Link", name: "link", widget: "string" }
