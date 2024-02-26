@@ -1,8 +1,8 @@
 backend:
   name: git-gateway
   branch: main
-media_folder: "static/images/uploads"
-public_folder: "/images/uploads"
+media_folder: "static/uploads"
+public_folder: "/uploads"
 collections:
   - name: pages
     label: Pages
@@ -34,3 +34,56 @@ collections:
                       - { label: "Enable", name: "enable", widget: "boolean" }
                       - { label: "Label", name: "label", widget: "string" }
                       - { label: "Link", name: "link", widget: "string" }
+          - label: Client Logos
+            name: clients_logo_slider
+            widget: object
+            fields:
+              - { label: "Enable", name: "enable", widget: "boolean" }
+              - label: Logos
+                name: client_logos
+                widget: list
+                fields:
+                  - { label: "Image", name: "logo", widget: "image" }
+                  - { label: "Link", name: "link", widget: "string" }
+          - label: Services
+            name: service
+            widget: object
+            fields:
+              - { label: "Enable", name: "enable", widget: "boolean" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Subtitle", name: "subtitle", widget: "string" }
+          - label: About
+            name: about
+            widget: object
+            fields:
+              - { label: "Enable", name: "enable", widget: "boolean" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Content", name: "content", widget: "text" }
+              - Label: Bulletpoints
+                name: bullet_point
+                widget: list
+              - label: "Button"
+                name: button
+                fields:
+                  - { label: "Enable", name: "enable", widget: "boolean" }
+                  - { label: "Label", name: "label", widget: "string" }
+                  - { label: "Link", name: "link", widget: "string" }
+          - label: FAQ
+            name: faq
+            widget: object
+            fields:
+              - { label: "Enable", name: "enable", widget: "boolean" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Subtitle", name: "subtitle", widget: "string" }
+              - label: Questions
+                name: entries
+                widget: list
+                fields:
+                  - { label: "Question", name: "question", widget: "string" }
+                  - { label: "Answer", name: "answer", widget: "text" }
+          - label: Call to Action
+            name: call_to_action
+            widget: object
+            fields:
+              - { label: "Enable", name: "enable", widget: "boolean" }
+              - { label: "Title", name: "title", widget: "string" }

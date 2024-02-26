@@ -6,8 +6,7 @@
 		<div class="swiper-wrapper">
 			<!-- slider item -->
 			{{ range $index, $ele := .Params.slider.slider_item }}
-			<div class="swiper-slide anim hero-slider-item py-160" {{ partial `bg-image.html` (dict `Src` .bg_image ) |
-				safeHTMLAttr }} data-icon="{{ .pagination_icon }}" data-text="{{ .pagination_name }}">
+			<div class="swiper-slide anim hero-slider-item py-160" style="background-size: cover; background-image: url({{.bg_image}}); background-position: center center; background-repeat: no-repeat;" data-icon="{{ .pagination_icon }}" data-text="{{ .pagination_name }}">
 				<div class="container">
 					<div class="row">
 						<div class="col-lg-12">

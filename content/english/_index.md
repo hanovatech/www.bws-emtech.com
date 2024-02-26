@@ -4,7 +4,7 @@ slider:
   enable: true
   slider_item:
     # slider item loop
-    - bg_image: images/banner/powertrain.jpg
+    - bg_image: uploads/powertrain.jpg
       animation_from: left
       subtitle: We are here to
       title: Design your EV Powertrain
@@ -18,7 +18,7 @@ slider:
         link: "about/"
 
     # slider item loop
-    - bg_image: images/banner/consulting.jpg
+    - bg_image: uploads/consulting.jpg
       animation_from: up
       subtitle: We help you to
       title: Get your Projects running
@@ -32,7 +32,7 @@ slider:
         link: "about/"
 
     # slider item loop
-    - bg_image: images/banner/systemy-2.jpg
+    - bg_image: uploads/systemy.jpg
       animation_from: down
       subtitle: We enable you to
       title: Use AI to design your EV
@@ -49,23 +49,23 @@ slider:
 clients_logo_slider:
   enable: true
   client_logos:
-    - logo: "images/client-logo/schaeffler.png"
+    - logo: "uploads/schaeffler.png"
       link: "https://schaeffler.de/"
-    - logo: "images/client-logo/kreisel.svg"
+    - logo: "uploads/kreisel.svg"
       link: "https://www.kreiselelectric.com/"
-    - logo: "images/client-logo/aox.png"
+    - logo: "uploads/aox.png"
       link: "https://www.aox.de/"
-    - logo: "images/client-logo/movia.png"
+    - logo: "uploads/movia.png"
       link: "https://www.movia-technologies.com/"
-    - logo: "images/client-logo/eberspaecher.png"
+    - logo: "uploads/eberspaecher.png"
       link: "https://www.eberspaecher.com/"
-    - logo: "images/client-logo/voyah.png"
+    - logo: "uploads/voyah.png"
       link: "https://www.voyah.ch/"
-    - logo: "images/client-logo/hoerbiger.png"
+    - logo: "uploads/hoerbiger.png"
       link: "https://www.hoerbiger.com/"
-    - logo: "images/client-logo/nidec.png"
+    - logo: "uploads/nidec.png"
       link: "https://www.nidec.com/en/"
-    - logo: "images/client-logo/mahle.png"
+    - logo: "uploads/mahle.png"
       link: "https://www.mahle.com/"
 
 ########################################## Service ####################################
