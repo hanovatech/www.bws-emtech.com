@@ -9,7 +9,7 @@ draft: false
 ###################################### ceo ########################################
 ceo:
   enable : true
-  bg_image : images/about/ceo.jpg
+  bg_image : uploads/ceo.jpg
   title : We are efficient to <br> make your business rise
   content : Waleed Sahhary is the CEO and Managing Director of BWS e-Mobility Technologies GmbH. 2001 and 2005 he has recieved the Bachelor and the Master of Science in the Electrical Engineering and Information Technology form the universitiy of Aleppo/Syria and the Leibniz University of Hannover/Germany respectively. His Master Theses was about Multilevel Inverter. His focus during his study was on Power Electronics and Electric Motor Controls. Mr. Sahhary has been working at the majority of well-known German OEMs such as Daimler, BMW, Audi, Porsche and Volkswagen as Consultant. Furthermore, he was also working in the last 8 years in the Research and Pre-Development at Robert Bosch GmbH. Mr. Sahhary has published more than 40 publications and patents in the field of Power Electronics, Inverter Topologies, Electric Motor Controls Schemes and High Voltage Batteries. His Experience is especially solid and and wide in the filed of System Design of the Electric Powertrain of the Electric Mobility. Since January 2020 Mr. Sahhary is the CEO of BWS e-Mobility Technologies GmbH.
   signature : "uploads/ceo-signature.png"
