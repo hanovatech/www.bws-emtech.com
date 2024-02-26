@@ -1,0 +1,4 @@
+---
+slider:
+  enable: true
+---
