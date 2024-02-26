@@ -9,7 +9,7 @@ collections:
     files: 
       - name: home
         label: Home
-        file: content/_index.md
+        file: content/english/_index.md
         fields:
           - label: Hero Slider
             name: slider
@@ -17,7 +17,7 @@ collections:
             fields:
               - { label: "Enable", name: "enable", widget: "boolean" }
               - label: Slides
-                name: slides
+                name: slider_item
                 widget: list
                 fields:
                   - { label: "Image", name: "bg_image", widget: "image" }
