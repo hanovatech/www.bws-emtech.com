@@ -1,6 +1,5 @@
 main:
   - name: Services
-    url: /service
     label: Our Services
     iconList: true
     childs:
