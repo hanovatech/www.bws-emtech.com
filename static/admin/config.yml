@@ -121,6 +121,20 @@ collections:
                   - { label: "Title", name: "title", widget: "string" }
                   - { label: "Icon", name: "icon", widget: "string" }
                   - { label: "Count", name: "count", widget: "number" }
+      - name: Impressum
+        label: Impressum
+        file: content/english/legal.md
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Description", name: "description", widget: "text" }
+          - { label: "Content", name: "body", widget: "markdown" }
+      - name: privacy
+        label: Datenschutz
+        file: content/english/privacy.md
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Description", name: "description", widget: "text" }
+          - { label: "Content", name: "body", widget: "markdown" }
   - name: service
     label: Services
     folder: content/english/services
