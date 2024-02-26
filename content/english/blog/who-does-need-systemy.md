@@ -4,7 +4,7 @@ bg_image: images/background/page-title.jpg
 date: 2023-03-16T11:35:34+06:00
 description : ""
 author: ""
-image: images/blog/who-needs-systemy.jpg
+image: uploads/who-needs-systemy.jpg
 categories: ["Powertrain", "Automotive", "Software Development"]
 tags: ["Business","Automotive","Powertrain"]
 type: post

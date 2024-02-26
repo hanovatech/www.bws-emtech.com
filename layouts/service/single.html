@@ -84,7 +84,7 @@
 			</aside>
 			{{ "<!-- service single content -->" | safeHTML }}
 			<div class="col-lg-8 order-lg-2 order-1">
-				{{ partial "image.html" (dict "Src" .Params.Image "Alt" "service" "Class" `w-100 mb-60 rounded-top`) }}
+				{{ partial "image.html" (dict "Src" .Params.Image "Alt" "service" "Class" `w-100 !h-64 object-cover mb-60 rounded-top`) }}
 				<div class="post-content">
 					{{ .Content }}
 				</div>

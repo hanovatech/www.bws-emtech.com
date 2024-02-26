@@ -4,7 +4,7 @@ bg_image: images/background/page-title.jpg
 date: 2018-09-23T11:35:34+06:00
 description : ""
 author: ""
-image: images/blog/six-phase-motor.jpg
+image: uploads/six-phase-motor.jpg
 categories: ["powertrain"]
 tags: ["automotive","powertrain"]
 type: post

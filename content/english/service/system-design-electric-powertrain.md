@@ -2,7 +2,7 @@
 title: "System Design Electric Powertrain"
 date: 2018-09-25T15:51:35+06:00
 description: "Explore the intricacies of electric powertrain system design with insights on key components, integration strategies, and cutting-edge technologies. Elevate your understanding and expertise in crafting advanced electric powertrains for a sustainable and efficient future."
-image: images/service/powertrain.jpeg
+image: uploads/powertrain.jpeg
 bg_image: images/background/page-title.jpg
 icon: ti-bolt
 regularDay: Mon. - Fri.

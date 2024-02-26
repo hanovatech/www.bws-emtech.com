@@ -87,3 +87,60 @@ collections:
             fields:
               - { label: "Enable", name: "enable", widget: "boolean" }
               - { label: "Title", name: "title", widget: "string" }
+      - name: about
+        label: About
+        file: content/english/about.md
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Description", name: "description", widget: "text" }
+          - Label: CEO
+            name: ceo
+            widget: object
+            fields:
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Designation", name: "designation", widget: "string" }
+              - { label: "Image", name: "bg_image", widget: "image" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Content", name: "content", widget: "text" }
+          - Label: Philosophy
+            name: philosophy
+            widget: object
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Subtitle", name: "subtitle", widget: "string" }
+              - { label: "Content", name: "content", widget: "text" }
+              - { label: "Image", name: "image", widget: "image" }
+          - label: Fun Facts
+            name: funfacts
+            widget: object
+            fields:
+              - label: Counters
+                name: counter
+                widget: list
+                fields:
+                  - { label: "Title", name: "title", widget: "string" }
+                  - { label: "Icon", name: "icon", widget: "string" }
+                  - { label: "Count", name: "count", widget: "number" }
+  - services:
+    label: Services
+    folder: content/english/services
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Description", name: "description", widget: "text" }
+      - { label: "Image", name: "image", widget: "image" }
+      - { label: "Icon", name: "icon", widget: "string" }
+      - { label: "Content", name: "body", widget: "markdown" }
+  - blog:
+    label: Blog
+    folder: content/english/blog
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Description", name: "description", widget: "text" }
+      - { label: "Image", name: "image", widget: "image" }
+      - { label: "Categories", name: "categories", widget: "list" }
+      - { label: "Tags", name: "tags", widget: "list" }
+      - { label: "Content", name: "body", widget: "markdown" }

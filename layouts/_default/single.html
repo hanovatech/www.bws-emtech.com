@@ -6,7 +6,7 @@
     <div class="row">
       <div class="col-lg-8 py-100">
         <div class="border rounded bg-white">
-          {{ partial "image.html" (dict "Src" .Params.image "Alt" "blog-image" "Class" `w-100 rounded-top`) }}
+          {{ partial "image.html" (dict "Src" .Params.image "Alt" "blog-image" "Class" `w-100 !h-64 object-cover rounded-top`) }}
           <div class="p-4">
             <h3>{{ .Title | markdownify }}</h3>
             <ul class="list-inline d-block pb-4 border-bottom mb-3">

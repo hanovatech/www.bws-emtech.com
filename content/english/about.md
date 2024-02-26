@@ -2,7 +2,7 @@
 title: "About Us"
 date: 2018-07-12T18:19:33+06:00
 bg_image: images/background/page-title.jpg
-description : "This is meta description"
+description : At BWS EmTech, our philosophy is to deliver reliable and innovative Battery Management Systems with a commitment to sustainability. We believe in practical solutions that redefine energy storage, prioritizing efficiency and environmental responsibility. Our focus on cutting-edge technology and integrity guides us in empowering businesses and individuals for a greener, more efficient future.
 layout: "about"
 draft: false
 
@@ -12,7 +12,7 @@ ceo:
   bg_image : images/about/ceo.jpg
   title : We are efficient to <br> make your business rise
   content : Waleed Sahhary is the CEO and Managing Director of BWS e-Mobility Technologies GmbH. 2001 and 2005 he has recieved the Bachelor and the Master of Science in the Electrical Engineering and Information Technology form the universitiy of Aleppo/Syria and the Leibniz University of Hannover/Germany respectively. His Master Theses was about Multilevel Inverter. His focus during his study was on Power Electronics and Electric Motor Controls. Mr. Sahhary has been working at the majority of well-known German OEMs such as Daimler, BMW, Audi, Porsche and Volkswagen as Consultant. Furthermore, he was also working in the last 8 years in the Research and Pre-Development at Robert Bosch GmbH. Mr. Sahhary has published more than 40 publications and patents in the field of Power Electronics, Inverter Topologies, Electric Motor Controls Schemes and High Voltage Batteries. His Experience is especially solid and and wide in the filed of System Design of the Electric Powertrain of the Electric Mobility. Since January 2020 Mr. Sahhary is the CEO of BWS e-Mobility Technologies GmbH.
-  signature : "images/about/ceo-signature.png"
+  signature : "uploads/ceo-signature.png"
   name : Waleed Sahhary
   designation : CEO
 
@@ -22,7 +22,7 @@ philosophy:
   subtitle : Know About
   title : Our Philosophy
   content : "At BWS EmTech, our philosophy is to deliver reliable and innovative Battery Management Systems with a commitment to sustainability. We believe in practical solutions that redefine energy storage, prioritizing efficiency and environmental responsibility. Our focus on cutting-edge technology and integrity guides us in empowering businesses and individuals for a greener, more efficient future."
-  image : images/about/philosophy.jpg
+  image : uploads/philosophy.jpg
 
 ########################################### Mission ###################################
 mission:

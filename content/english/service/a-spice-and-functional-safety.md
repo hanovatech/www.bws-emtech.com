@@ -1,8 +1,8 @@
 ---
 title: "A-Spice and Functional Safety"
 date: 2018-09-29T11:54:02+06:00
-description : "This is meta description"
-image: images/service/iso26262.jpg
+description: At BWS e-Mobility Technologies, we prioritize A-Spice and Functional Safety ISO26262 standards in our system design for electric powertrains.
+image: uploads/iso26262.jpg
 bg_image: images/background/page-title.jpg
 icon: ti-check
 regularDay: Mon. - Fri.

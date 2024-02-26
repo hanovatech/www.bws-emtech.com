@@ -48,6 +48,7 @@
       "ul"
     ],
     "classes": [
+      "!h-64",
       "!p-2",
       "!p-4",
       "!p-6",
@@ -272,6 +273,7 @@
       "my-3",
       "my-lg-0",
       "nextArrow",
+      "object-cover",
       "offset-lg-1",
       "opacity-0",
       "opacity-100",

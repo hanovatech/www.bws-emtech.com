@@ -2,7 +2,7 @@
 title: "Battery Management System"
 date: 2018-09-29T11:51:17+06:00
 description : "Discover excellence in Battery Management Systems with our industry-leading solutions. Elevate your energy storage capabilities as we guide you through cutting-edge BMS design, optimizing performance, extending battery life, and ensuring unmatched reliability. Trust our expertise to empower your energy storage solutions for a sustainable and efficient future."
-image: images/service/battery-management-system.jpg
+image: uploads/battery-management-system.jpg
 bg_image: images/background/page-title.jpg
 icon: ti-plug
 regularDay: Mon. - Fri.
