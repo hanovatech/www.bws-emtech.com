@@ -2,7 +2,7 @@
 slider:
   enable: true
   slider_item:
-    - bg_image: /uploads/powertrain_new.png
+    - bg_image: /uploads/5.png
       animation_from: left
       pagination_name: Powertrain Design
       button:
@@ -16,7 +16,7 @@ slider:
         future.
       textWhite: true
       pagination_icon: ti-bolt
-    - bg_image: /uploads/cons_new.png
+    - bg_image: /uploads/3.png
       animation_from: up
       pagination_name: Consulting
       button:
@@ -29,7 +29,7 @@ slider:
         projects <br> and ensuring successful realization of your goals.
       textWhite: true
       pagination_icon: ti-comments
-    - bg_image: /uploads/systemy_new.png
+    - bg_image: /uploads/4.png
       animation_from: down
       pagination_name: SYSTEMY
       button:
