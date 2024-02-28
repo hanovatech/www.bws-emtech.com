@@ -181,7 +181,7 @@ clients_logo_slider:
 call_to_action:
   enable: true
   bg_image: images/background/cta.jpg
-  title: Ready to transform your energy storage capabilities? Contact us today.
+  title: Boost your project with 20+ years of expertise – Contact us now!
   button:
     enable: true
     label: Contact
