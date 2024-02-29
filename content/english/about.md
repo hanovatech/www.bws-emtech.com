@@ -44,7 +44,7 @@ mission:
         proident sunt culpa qui officia deserunt mollit anim id est laborum.
 ceo:
   enable: true
-  bg_image: /uploads/ceo_png.png
+  bg_image: /uploads/ceo.jpg
   title: "Meet Our CEO: Waleed Sahhary <br> Leading Innovation in Electric Mobility"
   content: Waleed Sahhary is the CEO and Managing Director of BWS e-Mobility
     Technologies GmbH. 2001 and 2005 he has recieved the Bachelor and the Master
