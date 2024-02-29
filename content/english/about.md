@@ -1,12 +1,6 @@
 ---
 bg_image: images/background/page-title.jpg
 draft: false
-description: At BWS EmTech, our philosophy is to deliver reliable and innovative
-  Battery Management Systems with a commitment to sustainability. We believe in
-  practical solutions that redefine energy storage, prioritizing efficiency and
-  environmental responsibility. Our focus on cutting-edge technology and
-  integrity guides us in empowering businesses and individuals for a greener,
-  more efficient future.
 funfacts:
   enable: true
   bg_image: images/background/cta.jpg
@@ -44,7 +38,7 @@ mission:
         proident sunt culpa qui officia deserunt mollit anim id est laborum.
 ceo:
   enable: true
-  bg_image: /uploads/ceo.jpg
+  bg_image: /uploads/ceo_waleed.png
   title: "Meet Our CEO: Waleed Sahhary <br> Leading Innovation in Electric Mobility"
   content: Waleed Sahhary is the CEO and Managing Director of BWS e-Mobility
     Technologies GmbH. 2001 and 2005 he has recieved the Bachelor and the Master
@@ -98,6 +92,12 @@ skill:
     - title: Promotion
       progress: 90%
 title: About Us
+description: At BWS EmTech, our philosophy is to deliver reliable and innovative
+  Battery Management Systems with a commitment to sustainability. We believe in
+  practical solutions that redefine energy storage, prioritizing efficiency and
+  environmental responsibility. Our focus on cutting-edge technology and
+  integrity guides us in empowering businesses and individuals for a greener,
+  more efficient future.
 philosophy:
   enable: true
   subtitle: Know About
