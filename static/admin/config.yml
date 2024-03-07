@@ -158,8 +158,8 @@ collections:
       - { label: "Categories", name: "categories", widget: "list" }
       - { label: "Tags", name: "tags", widget: "list" }
       - { label: "Content", name: "body", widget: "markdown" }
-  - name: navigation
-    label: navigation
+  - name: settings
+    label: Settings
     files:
       - name: navigation
         label: Navigation
