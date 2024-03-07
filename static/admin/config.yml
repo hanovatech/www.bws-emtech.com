@@ -160,26 +160,29 @@ collections:
       - { label: "Content", name: "body", widget: "markdown" }
   - name: navigation
     label: navigation
-    file: data/navigation.yaml
-    fields:
-      - label: "Main"
-        name: "main"
-        widget: "list"
+    files:
+      - name: navigation
+        label: Navigation
+        file: data/navigation.yaml
         fields:
-          - { label: "Name", name: "name", widget: "string" }
-          - { label: "URL", name: "url", widget: "string", required: false }
-          - { label: "Icon List", name: "iconList", widget: "boolean" }
-          - label: "Childs"
-            name: "childs"
+          - label: "Main"
+            name: "main"
             widget: "list"
             fields:
               - { label: "Name", name: "name", widget: "string" }
-              - { label: "Description", name: "description", widget: "string" }
+              - { label: "URL", name: "url", widget: "string", required: false }
+              - { label: "Icon List", name: "iconList", widget: "boolean" }
+              - label: "Childs"
+                name: "childs"
+                widget: "list"
+                fields:
+                  - { label: "Name", name: "name", widget: "string" }
+                  - { label: "Description", name: "description", widget: "string" }
+                  - { label: "URL", name: "url", widget: "string" }
+                  - { label: "Icon", name: "icon", widget: "string" }
+          - label: "Footer"
+            name: "footer"
+            widget: "list"
+            fields:
+              - { label: "Name", name: "name", widget: "string" }
               - { label: "URL", name: "url", widget: "string" }
-              - { label: "Icon", name: "icon", widget: "string" }
-      - label: "Footer"
-        name: "footer"
-        widget: "list"
-        fields:
-          - { label: "Name", name: "name", widget: "string" }
-          - { label: "URL", name: "url", widget: "string" }
