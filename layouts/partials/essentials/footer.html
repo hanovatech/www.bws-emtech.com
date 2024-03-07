@@ -38,10 +38,8 @@
         <div class="col-lg-2 col-md-4 col-6">
           <h4 class="text-white mb-4">{{ i18n "quick_links" }}</h4>
           <ul class="footer-links">
-            {{ range site.Menus.main }}
-            {{ if not .HasChildren }}
-            <li><a href="{{ .URL | relLangURL }}">{{ .Name }}</a></li>
-            {{ end }}
+            {{ range .Site.Data.navigation.footer }}
+            <li><a href="{{ .url | relLangURL }}">{{ .name }}</a></li>
             {{ end }}
           </ul>
         </div>
