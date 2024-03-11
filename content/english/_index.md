@@ -4,7 +4,7 @@ slider:
   slider_item:
     - bg_image: /uploads/5.png
       animation_from: left
-      pagination_name: Powertrain Design
+      pagination_name: e-Powertrain Design
       button:
         enable: true
         label: More details
