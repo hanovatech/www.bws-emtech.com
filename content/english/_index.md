@@ -77,7 +77,7 @@ about:
   enable: true
   bg_image: images/background/about-bg.jpg
   title: Who We Are?
-  content: We are a team of expert engineers at BWS E-Mobility Technologies,
+  content: We are a team of expert engineers at BWS E-Mobility Technologies GmbH,
     dedicated to advancing electric mobility through innovative solutions and
     strategic collaboration.
   bullet_point:
