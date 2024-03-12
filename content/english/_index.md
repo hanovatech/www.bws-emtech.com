@@ -77,8 +77,9 @@ about:
   enable: true
   bg_image: images/background/about-bg.jpg
   title: Who We Are?
-  content: "Driving the Future of Energy Storage: Unraveling Our Commitment and
-    Expertise in Advanced Battery Management Systems."
+  content: We are a team of expert engineers at BWS E-Mobility Technologies,
+    dedicated to advancing electric mobility through innovative solutions and
+    strategic collaboration.
   bullet_point:
     - Business Services
     - EV Motor Design
