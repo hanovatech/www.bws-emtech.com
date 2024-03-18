@@ -1,0 +1,41 @@
+{{ define "main" }}
+
+<div class="my-20 mx-auto max-w-4xl prose">
+{{ .Content }}
+
+{{ with .Page.Params.jobs }}
+  <h2>Current Openings</h2>
+  <div class="not-prose">
+    <ul class="flex flex-col gap-4 p-0">
+      {{ range . }}
+        <li class="p-4 md:px-6 bg-gray-50 border rounded-lg">
+          <h3 class="mb-2 font-semibold" style="font-size: 1.25em">{{ .title }}</h3>
+          {{ if isset . "location" }}
+            <p class="mb-2 text-sm"><strong>Location:</strong> {{ .location }}</p>
+          {{ end }}
+          {{ if isset . "description" }}
+            <p class="mb-2 text-sm"><strong>Description:</strong><br>{{ .description }}</p>
+          {{ end }}
+          {{ if isset . "requirements" }}
+          <p class="mb-1 text-sm"><strong>Requirements:</strong></p>
+          <ul class="mb-2 text-sm list-disc list-inside">
+            {{ range .requirements }}
+              <li class="ml-2">{{ . }}</li>
+            {{ end }}
+          </ul>
+          {{ end }}
+        </li>
+      {{ end }}
+    </ul>
+  </div>
+  <hr>
+{{ else }}
+  <hr>
+  <p class="!text-xl"><strong>Sadly we do not have any opening at the moment.</strong></p>
+  <p class="text-sm font-light">But you can send us a initiative application to <a href="mailto:contact@bws-emtech.de">contact@bws-emtech.de</a>!</p>
+  <hr>
+{{ end }}
+</div>
+
+
+{{ end }}

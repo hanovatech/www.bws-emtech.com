@@ -62,7 +62,7 @@
 
 				<div class="mb-50">
 					<h3 class="mb-20 h5">{{ i18n "free_consultation" }}</h3>
-					<form action="{{ site.Params.contact_form_action | safeURL }}" class="row">
+					<form name="contact" method="POST" action="/contact-success" class="row">
 						<div class="col-lg-12">
 							<input type="text" class="form-control" name="name" id="name" placeholder="Name" required>
 						</div>
@@ -84,7 +84,7 @@
 			</aside>
 			{{ "<!-- service single content -->" | safeHTML }}
 			<div class="col-lg-8 order-lg-2 order-1">
-				{{ partial "image.html" (dict "Src" .Params.Image "Alt" "service" "Class" `w-100 !h-64 object-cover mb-60 rounded-top`) }}
+				{{ partial "image.html" (dict "Src" .Params.Image "Alt" "service" "Class" `w-100 object-cover mb-60 rounded-top`) }}
 				<div class="post-content">
 					{{ .Content }}
 				</div>

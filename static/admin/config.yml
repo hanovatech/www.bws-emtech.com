@@ -121,6 +121,25 @@ collections:
                   - { label: "Title", name: "title", widget: "string" }
                   - { label: "Icon", name: "icon", widget: "string" }
                   - { label: "Count", name: "count", widget: "number" }
+      - name: career
+        label: Career
+        file: content/english/career.md
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Description", name: "description", widget: "text" }
+          - Label: Open Positions
+            name: jobs
+            widget: list
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Location", name: "location", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - Label: Requirements
+                name: requirements
+                widget: list
+                fields:
+                  - { label: "Requirement", name: "requirement", widget: "string" }
+          - { label: "Content", name: "body", widget: "markdown" }
       - name: Impressum
         label: Impressum
         file: content/english/legal.md
