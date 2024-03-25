@@ -25,6 +25,29 @@
 {{ end }}
 {{ end }}
 
+{{ with .Params.team }}
+{{ if .enable }}
+{{ "<!-- team -->" | safeHTML }}
+<section>
+	<div class="container mt-20">
+		<div class="row rounded bg-secondary">
+			{{ range .members }}
+				<div class="px-0 flex flex-col md:flex-row rounded-lg overflow-hidden">
+					<img src="{{ .image }}" alt="{{ .name }}" class="w-full md:w-1/3">
+					<div class="p-12">
+						<h3 class="text-white">{{ .name }}</h3>
+						<p class="text-white text-xl font-semibold">{{ .position }}</p>
+						<p class="text-white text-md">{{ .content }}</p>
+					</div>
+				</div>
+			{{ end }}
+		</div>
+	</div>
+</section>
+{{ "<!-- /team -->" | safeHTML }}
+{{ end }}
+{{ end }}
+
 {{ with .Params.philosophy }}
 {{ if .enable }}
 {{ "<!-- philosophy -->" | safeHTML }}
