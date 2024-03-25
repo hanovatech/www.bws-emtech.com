@@ -102,6 +102,18 @@ collections:
               - { label: "Image", name: "bg_image", widget: "image" }
               - { label: "Title", name: "title", widget: "string" }
               - { label: "Content", name: "content", widget: "text" }
+          - label: Team
+            name: team
+            widget: object
+            fields:
+              - label: Members
+                name: members
+                widget: list
+                fields:
+                  - { label: "Name", name: "name", widget: "string" }
+                  - { label: "Position", name: "position", widget: "string" }
+                  - { label: "Image", name: "image", widget: "image" }
+                  - { label: "Content", name: "content", widget: "text" }
           - label: Philosophy
             name: philosophy
             widget: object
