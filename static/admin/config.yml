@@ -202,7 +202,7 @@ collections:
             fields:
               - { label: "Name", name: "name", widget: "string" }
               - { label: "URL", name: "url", widget: "string", required: false }
-              - { label: "Icon List", name: "iconList", widget: "boolean" }
+              - { label: "Icon List", name: "iconList", widget: "boolean", required: false }
               - label: "Childs"
                 name: "childs"
                 widget: "list"
