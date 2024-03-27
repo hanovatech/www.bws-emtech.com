@@ -1,6 +1,5 @@
 ---
 bg_image: images/background/page-title.jpg
-date: 2018-07-12T18:19:33+06:00
 draft: false
 funfacts:
   enable: true
@@ -59,17 +58,7 @@ ceo:
   signature: uploads/ceo-signature.png
   name: Waleed Sahhary
   designation: CEO
-team:
-  enable: true
-  members:
-    - name: Max Mustermann
-      image: /uploads/ceo.jpg
-      position: CTO
-      content: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed eiusmod
-        tempor incididunt labore nisi ut aliquip ex ea commodo consequat. Duis
-        aute irure dolor in reprehenderit voluptate velit esse cillum dolore fugiat
-        nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt culpa
-        qui officia deserunt mollit anim id est laborum.
+date: 2018-07-12T18:19:33+06:00
 skill:
   enable: false
   inherit_homepage: true
@@ -109,6 +98,9 @@ description: At BWS EmTech, our philosophy is to deliver reliable and innovative
   environmental responsibility. Our focus on cutting-edge technology and
   integrity guides us in empowering businesses and individuals for a greener,
   more efficient future.
+team:
+  enable: true
+  members: []
 philosophy:
   enable: true
   subtitle: Know About
